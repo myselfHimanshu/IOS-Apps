@@ -2,4 +2,4 @@
 IOS Apps.
 
 ## Finished App
-![Finished App](https://github.com/myselfHimanshu/IOS-Apps/blob/master/Images/i-am-poor-ios.png)
+![Finished App](https://github.com/myselfHimanshu/IOS-Apps/blob/master/Images/i-am-poor-ios.png =250x)
