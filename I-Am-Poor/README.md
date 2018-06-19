@@ -2,4 +2,4 @@
 IOS Apps.
 
 ## Finished App
-<img src="https://github.com/myselfHimanshu/IOS-Apps/blob/master/Images/i-am-poor-ios.png" width="300" height="500">
+<img src="https://github.com/myselfHimanshu/IOS-Apps/blob/master/Images/i-am-poor-ios.png" width="325" height="500">
