@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController{
+class ViewController: UIViewController, AVAudioPlayerDelegate{
     
     var audioPlayer : AVAudioPlayer!
 
@@ -33,6 +33,7 @@ class ViewController: UIViewController{
             print("couldn't load file :(")
             //print(error)
         }
+        
         
         
     }
