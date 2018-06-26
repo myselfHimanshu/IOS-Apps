@@ -12,6 +12,7 @@
 		257E937E20DFCC4800492ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E937C20DFCC4800492ED9 /* Main.storyboard */; };
 		257E938020DFCC4900492ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E937F20DFCC4900492ED9 /* Assets.xcassets */; };
 		257E938320DFCC4900492ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E938120DFCC4900492ED9 /* LaunchScreen.storyboard */; };
+		25CC24CE20E2387C007F0807 /* random_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 25CC24CD20E2387C007F0807 /* random_code.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		257E937F20DFCC4900492ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257E938220DFCC4900492ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257E938420DFCC4900492ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CC24CD20E2387C007F0807 /* random_code.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = random_code.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		257E936C20DFCC4800492ED9 = {
 			isa = PBXGroup;
 			children = (
+				25CC24CD20E2387C007F0807 /* random_code.txt */,
 				257E937720DFCC4800492ED9 /* Meme-Me */,
 				257E937620DFCC4800492ED9 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CC24CE20E2387C007F0807 /* random_code.txt in Resources */,
 				257E938320DFCC4900492ED9 /* LaunchScreen.storyboard in Resources */,
 				257E938020DFCC4900492ED9 /* Assets.xcassets in Resources */,
 				257E937E20DFCC4800492ED9 /* Main.storyboard in Resources */,
