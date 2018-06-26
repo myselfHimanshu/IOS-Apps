@@ -26,3 +26,77 @@ view.addSubview(button2)
 button1.addTarget(self, action: #selector(ViewController.incrementCount), for: UIControlEvents.touchUpInside)
 button2.addTarget(self, action: #selector(ViewController.decrementCount), for: UIControlEvents.touchUpInside)
 */
+
+
+
+
+//CODE 2:
+
+//
+//  ViewController.swift
+//  Meme-Me
+//
+//  Created by Himanshu Panwar on 24/06/18.
+//  Copyright © 2018 Himanshu. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+var count = 0
+@IBOutlet weak var label : UILabel!
+
+@IBOutlet weak var colorView : UIView!
+@IBOutlet weak var redControl : UISwitch!
+@IBOutlet weak var greenControl : UISwitch!
+@IBOutlet weak var blueControl : UISwitch!
+
+@IBOutlet weak var colorView2 : UIView!
+@IBOutlet weak var redControl2 : UISlider!
+@IBOutlet weak var greenControl2 : UISlider!
+@IBOutlet weak var blueControl2 : UISlider!
+
+override func viewDidLoad() {
+super.viewDidLoad()
+}
+
+@IBAction func incrementCount(){
+self.count += 1
+self.label.text = "\(self.count)"
+}
+
+@IBAction func decrementCount(){
+self.count -= 1
+self.label.text = "\(self.count)"
+}
+
+@IBAction func changeColor(_ sender: Any){
+if self.redControl==nil{
+return
+}
+
+let r : CGFloat = self.redControl.isOn ? 1 : 0
+let g : CGFloat = self.greenControl.isOn ? 1 : 0
+let b : CGFloat = self.blueControl.isOn ? 1 : 0
+
+colorView.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1)
+
+let rr : CGFloat = CGFloat(self.redControl2.value)
+let gg : CGFloat = CGFloat(self.greenControl2.value)
+let bb : CGFloat = CGFloat(self.blueControl2.value)
+
+colorView2.backgroundColor = UIColor(red: rr, green: gg, blue: bb, alpha: 1)
+
+
+}
+
+
+
+}
+
+
+
+## Code 3:
+
+
