@@ -16,11 +16,23 @@ class ViewController: UIViewController {
     }
 
     @IBAction func experiment(_ sender : UIButton){
-        /*let image = UIImage()
+        
+        //Image Picker Controller
+        /*
+        let controller = UIImagePickerController()
+        present(controller, animated: true, completion: nil)
+        */
+        
+        //Activity View Controller
+        /*
+        let image = UIImage()
         let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
         
         present(controller, animated: true, completion: nil)
- */
+        */
+        
+        //Alert View Controller
+        /*
         let controller = UIAlertController()
         
         controller.title = "This is an ALERT!!!"
@@ -30,6 +42,7 @@ class ViewController: UIViewController {
         }))
         present(controller, animated: true, completion: nil)
         //dismiss(animated: true, completion: nil)
+        */
         
     }
 
